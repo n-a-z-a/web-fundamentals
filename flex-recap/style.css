@@ -1,0 +1,28 @@
+h1 {
+    color: black;
+}
+
+main {
+    width: 90%;
+    height: 200px;
+    color: black;
+    background-color: grey;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+}
+
+#lorem {
+    background-color: white; 
+}
+
+#lorem > p {
+    background-color: lightgray;
+}
